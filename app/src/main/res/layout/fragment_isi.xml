@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/gradient"
+    tools:context=".fragment.IsiFragment">
+
+    <RelativeLayout
+        android:id="@+id/scrollView2"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:layout_constraintBottom_toBottomOf="parent">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                android:padding="10dp">
+
+
+                <ImageView
+                    android:id="@+id/imgChoose"
+                    android:layout_width="match_parent"
+                    android:layout_height="300dp"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_marginTop="20dp"
+                    android:layout_marginBottom="10dp"
+                    android:foregroundGravity="center_horizontal" />
+
+
+                <EditText
+                    android:id="@+id/inputJudul"
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:enabled="true"
+                    android:hint="Memuat data . . . ."
+                    android:inputType="text" />
+
+                <EditText
+                    android:id="@+id/inputPenulis"
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:enabled="true"
+                    android:hint="Memuat data . . . ."
+                    android:inputType="text" />
+
+
+                <EditText
+                    android:id="@+id/inputPenerbit"
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:enabled="true"
+                    android:hint="Memuat data . . . ."
+                    android:inputType="text" />
+
+
+                <EditText
+                    android:id="@+id/inputTahun"
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:enabled="true"
+                    android:hint="Memuat data . . . ."
+                    android:inputType="number"
+                    android:maxLength="4" />
+
+
+                <EditText
+                    android:id="@+id/inputHarga"
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:enabled="true"
+                    android:hint="Memuat data . . . ."
+                    android:inputType="number"
+                    android:maxLength="7" />
+
+                <LinearLayout
+                    android:id="@+id/layoutAction"
+                    android:layout_width="match_parent"
+                    android:layout_height="100dp"
+                    android:layout_marginTop="50dp"
+                    android:orientation="horizontal">
+
+                    <Button
+                        android:id="@+id/btnChoose"
+                        android:layout_width="0dip"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="10dp"
+                        android:layout_weight="1"
+                        android:text="Choose"
+                        app:iconSize="15dp" />
+
+                    <Button
+                        android:id="@+id/btnUpload"
+                        android:layout_width="0dip"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="10dp"
+                        android:layout_weight="1"
+                        android:text="Upload"
+                        app:iconSize="15dp" />
+
+                    <Button
+                        android:id="@+id/btnDelete"
+                        android:layout_width="0dip"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="10dp"
+                        android:layout_weight="1"
+                        android:text="Delete"
+                        app:iconSize="15dp" />
+
+                </LinearLayout>
+
+
+            </LinearLayout>
+
+
+
+        </RelativeLayout>
+
+
+    </RelativeLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

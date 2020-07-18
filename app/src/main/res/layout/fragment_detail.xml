@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".fragment.Detail"
+    android:background="@drawable/gradient">
+
+    <!-- TODO: Update blank fragment layout -->
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="match_parent"
+        android:layout_height="109dp"
+        android:src="@drawable/thumb"/>
+
+    <FrameLayout
+        android:layout_width="380dp"
+        android:layout_height="510dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="120dp"
+        android:background="#95FFFFFF"
+        android:elevation="5dp"
+        android:outlineAmbientShadowColor="@color/alertPrimaryFontColor"
+        android:outlineSpotShadowColor="#3F51B5"
+        android:padding="30dp">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:padding="10dp">
+
+
+            <TextView
+                android:id="@+id/textView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Detail Book"
+                android:textColor="#120101"
+                android:textSize="30sp"
+                android:textStyle="bold|italic" />
+
+            <EditText
+                android:id="@+id/penulis"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:layout_marginBottom="357dp"
+                android:ems="10"
+                android:hint="Penulis"
+                android:inputType="textPersonName" />
+
+            <EditText
+                android:id="@+id/penerbit"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:layout_marginBottom="302dp"
+                android:ems="10"
+                android:hint="Penerbit"
+                android:inputType="textPersonName" />
+
+            <EditText
+                android:id="@+id/tahun"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:layout_marginBottom="248dp"
+                android:ems="10"
+                android:hint="Tahun Terbit"
+                android:inputType="number" />
+
+            <EditText
+                android:id="@+id/harga"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:layout_marginBottom="193dp"
+                android:ems="10"
+                android:hint="Harga"
+                android:inputType="number" />
+
+            <Button
+                android:id="@+id/btnGallery"
+                android:layout_width="123dp"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentBottom="true"
+                android:layout_marginStart="153dp"
+                android:layout_marginLeft="153dp"
+                android:layout_marginEnd="38dp"
+                android:layout_marginRight="38dp"
+                android:layout_marginBottom="69dp"
+                android:text="Open Image" />
+
+            <ImageView
+                android:id="@+id/image"
+                android:layout_width="144dp"
+                android:layout_height="144dp"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentBottom="true"
+                android:layout_marginStart="8dp"
+                android:layout_marginLeft="8dp"
+                android:layout_marginEnd="162dp"
+                android:layout_marginRight="162dp"
+                android:layout_marginBottom="59dp"
+                android:background="@drawable/ic_tabahgaleri" />
+
+            <Button
+                android:id="@+id/update"
+                android:layout_width="130dp"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:layout_marginBottom="10dp"
+                android:background="#0000ff"
+                android:text="Update"
+                android:textColor="#ffffff"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/delete"
+                android:layout_width="130dp"
+                android:layout_height="wrap_content"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentBottom="true"
+                android:layout_marginEnd="7dp"
+                android:layout_marginBottom="10dp"
+                android:background="#B10202"
+                android:text="Delete"
+                android:textColor="#ffffff"
+                android:textStyle="bold" />
+        </RelativeLayout>
+    </FrameLayout>
+</FrameLayout>
