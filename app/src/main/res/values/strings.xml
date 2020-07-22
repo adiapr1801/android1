@@ -1,0 +1,16 @@
+<resources>
+    <string-array name="daftar_makanan">
+        <item>Select Roles</item>
+        <item>User</item>
+        <item>Admin</item>
+    </string-array>
+    <string name="app_name">AdiaprAPP</string>
+
+    <string name="usernameerror">Enter a valid name</string>
+    <string name="emailerror">Enter a valid email</string>
+    <string name="passwordeerror">Enter a valid mobile</string>
+    <string name="nameerror">Enter a valid date</string>
+    <string name="ageerror">Enter a valid age</string>
+    <string name="judulerror">Masukkan Judul Dengan benar</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>
